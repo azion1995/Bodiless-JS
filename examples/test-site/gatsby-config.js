@@ -57,7 +57,7 @@ if (tagManagerEnabled) {
   plugins.push({
     resolve: 'gatsby-plugin-google-tagmanager',
     options: {
-      id: process.env.GOOGLE_TAGMANAGER_ID || 'GTM-XXXXXXX',
+      id: process.env.GOOGLE_TAGMANAGER_ID || 'GTM-123456',
       // datalayer to be set before GTM is loaded
       // should be an object or a function that is executed in the browser
       // Defaults to null
